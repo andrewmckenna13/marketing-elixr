@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'site',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,6 +52,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'marketingelixr.urls'
+
+WSGI_APPLICATION = 'marketingelixr.wsgi.application'
 
 TEMPLATES = [
     {
@@ -68,7 +71,6 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'marketingelixr.wsgi.application'
 
 
 # Database
