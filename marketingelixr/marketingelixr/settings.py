@@ -62,8 +62,6 @@ WSGI_APPLICATION = 'marketingelixr.wsgi.application'
 STATIC_URL =  '/static/'
 STATIC_ROOT = 'staticfiles'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),os.path.join(BASE_DIR, 'marketingelixr2/static'),)
-print 111,STATICFILES_DIRS
-print
 STATICFILES_FINDERS = (
 	'django.contrib.staticfiles.finders.FileSystemFinder',
 	'django.contrib.staticfiles.finders.AppDirectoriesFinder',
