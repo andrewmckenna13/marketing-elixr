@@ -6,9 +6,14 @@
         <div id="view" ng-view style=" width: 100%;overflow-y: auto"></div>
         {% endblock content %}
 	</div>
-    <div id="headerBar" style="width: 100%;position: fixed; height:78px; z-index:2; overflow-y: auto; overflow-x: auto;color:#ffffff;text-transform: uppercase">
-        <div style="float:left;line-height: 78px;padding-left: 30px;">Marketing</div>
-        <div style="float:right;line-height: 78px;padding-right: 30px;">Elixir</div>
+    <div id="headerBar" style="width: 100%;position: fixed; height:78px; z-index:2; overflow-y: auto; overflow-x: auto;color:#ffffff;text-transform: uppercase;font-size: 12px;font-weight: 400;">
+        <div style="float:left;line-height: 78px;padding-left: 30px;">Marketing ELIXIR</div>
+        <div style="float:right;line-height: 78px;padding-right: 30px;cursor: pointer">
+            <div class="header-login"> Login</div>
+            <div class="header-option"> Support</div>
+            <div class="header-option"> Blog</div>
+            <div class="header-option"> Resources</div>
+        </div>
     </div>
 </div>
 {% endblock template %}
