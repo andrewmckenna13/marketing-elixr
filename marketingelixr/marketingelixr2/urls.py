@@ -6,4 +6,5 @@ from marketingelixr2 import views
 
 urlpatterns = [
     url(r'^$', views.andrew, name=''),
+    # url(r'^$', NoIE8TemplateView.as_view(template_name='index.html'), name=""),
 ]

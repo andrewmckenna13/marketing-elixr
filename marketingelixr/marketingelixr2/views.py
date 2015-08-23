@@ -3,5 +3,5 @@ from django.shortcuts import render
 # Create your views here.
 def andrew(request):
 	context={}
-	template= "andrew.html"
+	template= "me_main_template.html"
 	return render(request, template, context)

@@ -1,0 +1,14 @@
+{% extends "me_app.html" %}
+{% block template %}
+<div class="height-full" ng-controller="meTopLevelCtrl" ng-cloak>
+	<div id="mainTemplate" style="width: 100vw;position: fixed; height:100vh; z-index:1; overflow-y: auto; overflow-x: auto ">
+        {% block content %}
+        <div id="view" ng-view style=" width: 100%;overflow-y: auto"></div>
+        {% endblock content %}
+	</div>
+    <div id="headerBar" style="width: 100%;position: fixed; height:78px; z-index:2; overflow-y: auto; overflow-x: auto;color:#ffffff;text-transform: uppercase">
+        <div style="float:left;line-height: 78px;padding-left: 30px;">Marketing</div>
+        <div style="float:right;line-height: 78px;padding-right: 30px;">Elixir</div>
+    </div>
+</div>
+{% endblock template %}
