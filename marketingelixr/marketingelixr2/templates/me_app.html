@@ -41,11 +41,11 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-69576529-1', 'auto');
-  ga('create', 'UA-69576529-2', 'auto', 'clientTracker');
+  ga('create', 'UA-69576529-2', 'auto', {'name': 'newTracker'});
   ga('require', 'linkid');
-  ga('clientTracker.require', 'linkid');
+  ga('newTracker.require', 'linkid');
   ga('send', 'pageview');
-  ga('clientTracker.send', 'pageview');
+  ga('newTracker.send', 'pageview');
 
 </script>
 </body>
