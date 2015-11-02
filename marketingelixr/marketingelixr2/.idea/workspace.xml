@@ -26,8 +26,8 @@
       <file leaf-file-name="me_app.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/me_app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7222222" vertical-offset="168" max-vertical-offset="870">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.76495725" vertical-offset="168" max-vertical-offset="870">
+              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -200,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/me_app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7222222" vertical-offset="168" max-vertical-offset="870">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.76495725" vertical-offset="168" max-vertical-offset="870">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
           <folding />
         </state>
       </provider>
